@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathNotepad", "MathNotepad\MathNotepad.csproj", "{A8684B94-10D6-44B5-956A-90BF2275111E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPad", "MathPad\MathPad.csproj", "{A8684B94-10D6-44B5-956A-90BF2275111E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

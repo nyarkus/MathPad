@@ -1,4 +1,7 @@
-﻿using System;
+﻿// MathPad Copyright (C) 2024 nyarkus_, All Rights Reserved.
+// Licensed under the MIT License.
+
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
