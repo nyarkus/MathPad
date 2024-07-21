@@ -42,8 +42,8 @@ public class TS
         if(!Saved)
         {
             DialogResult result = MessageBox.Show(
-            "Документ не был сохранен. Хотите сохранить изменения?",
-            "Создание нового документа",
+            "The document has not been saved. Do you want to save your changes?",
+            "Creating a new document",
             MessageBoxButtons.YesNoCancel,
             MessageBoxIcon.Question);
 
@@ -60,7 +60,7 @@ public class TS
         }
 
         form1.rtb.Text = "";
-        form1.Text = "Безымянный";
+        form1.Text = "Untitled";
         Saved = true;
     }
 
@@ -68,7 +68,7 @@ public class TS
     {
         var ofd = new OpenFileDialog();
 
-        ofd.Filter = "Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*";
+        ofd.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
         ofd.DefaultExt = ".txt";
 
         if(ofd.ShowDialog() == DialogResult.OK)
@@ -98,9 +98,9 @@ public class TS
     {
         var sfd = new SaveFileDialog();
 
-        sfd.Filter = "Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*";
+        sfd.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
         sfd.DefaultExt = ".txt";
-        sfd.FileName = "Новый файл";
+        sfd.FileName = "New file";
 
         if (sfd.ShowDialog() == DialogResult.OK)
         {

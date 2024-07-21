@@ -94,25 +94,25 @@ namespace MathNotepad
 
             TS.form1 = this;
 
-            ToolStripMenuItem fileMenuItem = new ToolStripMenuItem("Файл");
+            ToolStripMenuItem fileMenuItem = new ToolStripMenuItem("File");
 
             // Создаем вложенные пункты меню "Файл"
-            ToolStripMenuItem newMenuItem = new ToolStripMenuItem("Новый")
+            ToolStripMenuItem newMenuItem = new ToolStripMenuItem("New")
             {
                 ShortcutKeys = Keys.Control | Keys.N,
                 ShowShortcutKeys = true
             };
-            ToolStripMenuItem openMenuItem = new ToolStripMenuItem("Открыть")
+            ToolStripMenuItem openMenuItem = new ToolStripMenuItem("Open")
             {
                 ShortcutKeys = Keys.Control | Keys.O,
                 ShowShortcutKeys = true
             };
-            ToolStripMenuItem saveMenuItem = new ToolStripMenuItem("Сохранить")
+            ToolStripMenuItem saveMenuItem = new ToolStripMenuItem("Save")
             {
                 ShortcutKeys = Keys.Control | Keys.S,
                 ShowShortcutKeys = true
             };
-            ToolStripMenuItem saveAsMenuItem = new ToolStripMenuItem("Сохранить как")
+            ToolStripMenuItem saveAsMenuItem = new ToolStripMenuItem("Save as")
             {
                 ShortcutKeys = Keys.Control | Keys.Shift | Keys.S,
                 ShowShortcutKeys = true
@@ -139,8 +139,8 @@ namespace MathNotepad
             if (!TS.Saved)
             {
                 DialogResult result = MessageBox.Show(
-                    "Проект не был сохранен. Хотите сохранить изменения?",
-                    "Выход",
+                    "The project has not been saved. Do you want to save the changes?",
+                    "Exit",
                     MessageBoxButtons.YesNoCancel,
                     MessageBoxIcon.Question);
 
