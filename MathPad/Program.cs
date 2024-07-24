@@ -1,4 +1,4 @@
-// MathPad Copyright (C) 2024 nyarkus_, All Rights Reserved.
+// MathPad Copyright (C) 2024 Yahor Klimenko, All Rights Reserved.
 // Licensed under the MIT License.
 
 namespace MathNotepad
